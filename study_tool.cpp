@@ -6,8 +6,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define QUESTIONS 20
-
 using namespace std;
 
 struct Word {
