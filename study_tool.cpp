@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
       int a_idx = rand() % 4;
       for (int i = 0; i < 4; i++) {
         if (i == a_idx) {
-          cout << i+1 << ".) " << chosen.word << " !" << endl;
+          cout << i+1 << ".) " << chosen.word << endl;
         } else {
           int r_idx = rand() % word_list.size();
           if (find(used.begin(), used.end(), r_idx) == used.end() && r_idx != *(used.end()) && word_list.at(r_idx).word != chosen.word) {
